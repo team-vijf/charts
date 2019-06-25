@@ -1,9 +1,9 @@
 dependencies:
 - name: etcd
   version: 0.6.2
-  repository: https://kubernetes-charts-incubator.storage.googleapis.com/
+  repository: https://github.com/team-vijf/charts
   condition: etcd.deployChart
 - name: zookeeper
   version: 1.0.0
-  repository: https://kubernetes-charts-incubator.storage.googleapis.com/
+  repository: https://github.com/team-vijf/charts
   condition: zookeeper.deployChart
